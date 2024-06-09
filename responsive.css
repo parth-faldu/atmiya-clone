@@ -1,0 +1,359 @@
+@media screen and (max-width:400px) {
+
+    table,
+    input,
+    .news-con,
+    /* .Our-Distinctiveness, */
+    .faculties {
+        display: none;
+    }
+
+    .logo2 {
+        background-image: url('images/logo.png');
+        background-size: 80px 80px;
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        top: 20px;
+        left: 32%;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 30px;
+        width: 30px;
+        margin: 23px 0px 70px 21px;
+    }
+
+    .lines {
+        border: 2px solid white;
+        border-radius: 3px;
+    }
+
+    .second {
+        position: unset;
+    }
+
+    .first {
+        display: table;
+        width: 100vw;
+        height: 250px;
+        padding: unset;
+    }
+
+    .first ul {
+        font-size: 10px;
+        display: grid;
+        grid-template-columns: 84px 130px 0px 0px;
+        row-gap: 8px;
+        column-gap: 13px;
+        margin: 30% 0px 0 5px;
+    }
+
+    .first li {
+        display: block;
+        padding: unset;
+    }
+
+    .input2 {
+        display: block;
+        background-color: rgba(229, 234, 255, 0.3);
+        border: none;
+        position: absolute;
+        top: 13px;
+        color: #fff;
+        right: 04px;
+        height: 19px;
+        width: 90px;
+        font-size: 13px;
+        text-indent: 10px;
+    }
+
+    .input2::placeholder {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #f2f2f2;
+    }
+
+    .links {
+        position: absolute;
+        right: 4px;
+        top: 53px;
+    }
+
+    .icon {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .carousel {
+        width: unset;
+    }
+
+    .icon div {
+        width: 20px;
+        height: 20px;
+    }
+
+    .follow {
+        margin-left: -20px;
+    }
+
+    .swipe-left,
+    .swipe-right {
+        height: 20%;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 5px;
+        height: 5px;
+    }
+
+    .carousel-indicators {
+        bottom: -10px;
+    }
+
+    .admission-enquiry {
+        height: 22px;
+        padding: 0px 5px;
+        right: -10%;
+        font-size: 9px;
+    }
+
+    .marq1 {
+        width: unset;
+        font-size: 10px;
+    }
+
+    .record-con {
+        flex-direction: column;
+        width: unset;
+        height: unset;
+    }
+
+    .records {
+        margin-top: 30px;
+    }
+
+    .r1,
+    .r2,
+    .r3,
+    .r4,
+    .r5,
+    .r6 {
+        width: 120px;
+        height: 230px;
+    }
+
+    .c1::before,
+    .c2::before,
+    .c3::before,
+    .c4::before,
+    .c5::before,
+    .c6::before {
+        width: 76px;
+        height: 76px;
+    }
+
+    .c1,
+    .c2,
+    .c3,
+    .c4,
+    .c5,
+    .c6 {
+        width: 95px;
+        height: 95px;
+    }
+
+    .tempo-div {
+        display: flex;
+        width: 95px;
+        height: 95px;
+    }
+
+    .record-row-1,
+    .record-row-2 {
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 20px;
+    }
+
+    .record-row-2 {
+        margin-top: -237px;
+    }
+
+    .slider {
+        margin-top: unset;
+        height: 400px;
+        width: 290px;
+        margin: 30px 35px;
+    }
+
+    .h3-mar-left {
+        margin-left: 25px;
+    }
+
+    .clg-info {
+        width: unset;
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+    }
+
+    .clg-info-row-1,
+    .clg-info-row-2 {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .clg-info-2,
+    .clg-info-5 {
+        margin: unset;
+    }
+
+    .clg-info-2,
+    .clg-info-6 {
+        margin-left: 30px;
+    }
+
+    .clg-info-1,
+    .clg-info-2,
+    .clg-info-3 {
+        display: flex;
+        margin-top: unset;
+        margin-left: 30px;
+    }
+
+    .clg-info-5 {
+        margin-left: 24px;
+    }
+
+    .ci-icon img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .bold-ci {
+        font-size: 20px;
+    }
+
+    .p-ci {
+        font-size: 13px;
+    }
+
+    .clg-info-row-1 {
+        padding-top: 40px;
+    }
+
+    .announce-news {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: unset;
+    }
+
+    .announcement {
+        border: unset;
+        width: unset;
+        padding: unset;
+    }
+
+    .h2-announce {
+        font-size: 23px;
+    }
+
+    .announce1 {
+        width: unset;
+    }
+
+    .announce-marquee {
+        width: 277px;
+    }
+
+    .news-updates img {
+        width: 300px;
+        height: 416px;
+    }
+
+    .news-title-con h2 {
+        font-size: 20px;
+    }
+
+    .news-con-respo {
+        display: block;
+    }
+
+    .news-updates {
+        width: unset;
+    }
+
+    .carousel-inner {
+        overflow: visible;
+    }
+
+    .navi-for-news {
+        display: none;
+    }
+
+    .carousel-indicators-respo .active {
+        opacity: 1;
+    }
+
+    .carousel-indicators-respo {
+        position: absolute;
+        right: 0;
+        bottom: -80px;
+        left: 0;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin-right: 15%;
+        margin-bottom: 1rem;
+        margin-left: 15%;
+    }
+
+    .carousel-indicators-respo [data-bs-target] {
+        box-sizing: content-box;
+        flex: 0 1 auto;
+        width: 30px;
+        height: 3px;
+        padding: 0;
+        margin-right: 3px;
+        margin-left: 3px;
+        text-indent: -999px;
+        cursor: pointer;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 0;
+        border-top: 0px solid transparent;
+        border-bottom: 0px solid transparent;
+        opacity: .5;
+        transition: opacity .6s ease;
+        width: 13px;
+        height: 13px;
+        background-color: #22225E;
+        border-radius: unset;
+    }
+
+    .carousel-indicators-respo .active {
+        opacity: 1;
+    }
+
+    .carousel-indicators-respo button:hover {
+        background: #CBA85E;
+        width: 13px;
+        height: 13px;
+    }
+    .Our-Distinctiveness{
+        width: unset;
+    }
+    .od-title-bg{
+        font-size: 22px;
+    }
+    .od-title-main{
+        font-size: 18px;
+    }
+}
