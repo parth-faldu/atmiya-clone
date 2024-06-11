@@ -86,9 +86,7 @@
         grid-template-columns: auto auto auto auto;
     }
 
-    .carousel {
-        width: unset;
-    }
+   
 
     .icon div {
         width: 20px;
@@ -286,10 +284,6 @@
 
     .news-updates {
         width: unset;
-    }
-
-    .carousel-inner {
-        overflow: visible;
     }
 
     .navi-for-news {
@@ -601,4 +595,5 @@
         width: 32px;
         height: 40px;
     }
+   
 }
