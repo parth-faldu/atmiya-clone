@@ -2,9 +2,8 @@
 
     table,
     input,
-    .news-con,
-    /* .Our-Distinctiveness, */
-    .faculties {
+    .news-con
+    {
         display: none;
     }
 
@@ -282,7 +281,7 @@
     }
 
     .news-con-respo {
-        display: block;
+        display: flex;
     }
 
     .news-updates {
@@ -347,13 +346,259 @@
         width: 13px;
         height: 13px;
     }
+    .od-cards{
+        flex-direction: column;
+        font-size: 10px;
+        margin-top: 30px;
+    }
+    .card-row1,.card-row2{
+        display: grid;
+        row-gap: 10px;
+        grid-template-columns: 160px 160px;
+    }
     .Our-Distinctiveness{
         width: unset;
+        height: unset;
+        padding-bottom: 20px;
     }
     .od-title-bg{
         font-size: 22px;
+        margin-top: -8px;
     }
     .od-title-main{
         font-size: 18px;
+    }
+    .card-row1 div, .card-row2 div{
+        width: 137px;
+        height: 105px;
+    }
+    .card-bg-div{
+        width: 147px !important;
+        height: 115px !important;
+    }
+    .top-right-sidebox,.bottom-left-sidebox{
+        display: none !important;
+    }
+    .od-title-con{
+        margin-top: 30px;
+    }
+    .od-title-bg:hover {
+        animation: title 2s ease-in-out;
+    }
+    @keyframes title {
+        0% {
+            font-size: 22px;
+        }
+        50% {
+            font-size: 24px;
+        }
+        100% {
+            font-size: 22px;
+        }
+    }
+    .od-logo{
+        left: 41%;
+        top: 42%;
+    }
+    .od-logo img{
+        position: absolute;
+        width: 78px;
+        height: 78px;
+    }
+    .faculties{
+        width: unset;
+    }
+    .f-row1{
+        flex-direction: column;
+    }
+    .f-h3{
+        font-size: 18px;
+    }
+    .f-p{
+        font-size: 10px;
+    }
+    .f-title-bg{
+        font-size: 22px;
+    }
+    .f-title-main{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .faculties .underline{
+        width: 80px;
+        margin: unset;
+    }
+    .APPROVALS-ACCREDITATION{
+        display: block;
+    }
+    .aa-title-con{
+        flex-direction: unset;
+        border-right: unset;
+        margin: unset;
+        padding: unset;
+        border-bottom: 1px solid  rgb(252, 234, 234) ;
+        width: unset;
+        justify-content: unset;
+        align-items: unset;
+        height: unset;
+        padding-left: 80px;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+    }
+    .aa-title{
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif !important;
+    }
+    .aa{
+        margin: 20px 0px;
+    }
+    .aa{
+        display: none;
+    }
+    .aa-con-respo,.aa-con-respo .aa{
+        display: flex;
+    }
+    .aa-con-respo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .memb{
+        display: none;
+    }
+    .memb-con-respo{
+        display: flex;
+    }
+    .memb-con-respo .memb{
+        display: flex;
+    }
+    .memberships{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0px;
+    }
+    .memb-title{
+        border: unset;
+        margin: unset;
+        padding: unset;
+        border-bottom: 1px solid #CBA85E;
+        width: 100%;
+        font-size: 14px;
+        height: unset;
+        margin-top: 40px;
+        padding-bottom: 15px;
+    }
+    .NATIONAL-INTERNATIONAL-COLLABORATION{
+        display: block;
+        margin: unset;
+    }
+    .nic-title-con{
+        flex-direction: unset;
+        border-right: unset;
+        margin: unset;
+        padding: unset;
+        border-bottom: 1px solid  rgb(252, 234, 234) ;
+        width: unset;
+        justify-content: unset;
+        align-items: unset;
+        height: unset;
+        padding-left: 30px;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+    }
+    .nic-title{
+        font-size: 14px;
+        font-family: 'Montserrat', sans-serif !important;
+    }
+    .nic{
+        margin: 20px 0px;
+    }
+    .nic{
+        display: none;
+    }
+    .nic-con-respo,.nic-con-respo .nic{
+        display: flex;
+    }
+    .nic-con-respo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .award-con-main{
+        display: none;
+    }
+    .award-con-main-respo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        position: relative;
+    }
+    .award-title-bg{
+        font-size: 22px;
+        margin-top: -8px;
+    }
+    .award-title-main{
+        font-size: 18px;
+    }
+    .AWARDS-ACCOLADES .underline{
+        display: none;
+    }
+    .award-con img{
+        width: 290px;
+        height: 336px;
+    }
+    .award-title {
+        padding-left: 15px;
+    }
+    .swipe-prev,.swipe-next{
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        top:50%;
+        background: #22225E;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .swipe-prev{
+        left: 0px;
+    }
+    .swipe-next{
+        right:0px;
+    }
+    .swipe-prev svg,.swipe-next svg{
+        width: 15px;
+        height: 15px;
+    }
+    .clg-info-header{
+        flex-direction: column;
+        row-gap: 25px;
+    }
+    .cih-con ul{
+        border: none;
+    }
+    .cih-title{
+        padding-left: 30px;
+    }
+    .cih-con ul{
+        padding-left: 30px;
+    }
+    .respo-pad{
+        padding-left: 30px !important;
+    }
+    .header{
+        row-gap: 30px;
+        flex-direction: column;
+    }
+    .header .links{
+        flex-direction: column;
+        margin-right: -55%;
+    }
+    .header .icon div{
+        width: 32px;
+        height: 40px;
     }
 }
