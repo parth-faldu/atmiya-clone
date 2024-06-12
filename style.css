@@ -737,7 +737,7 @@ h3 {
     position: absolute;
 }
 
-.od-title-bg:hover {
+.od-title-con:hover .od-title-bg{
     animation: title 2s ease-in-out;
 }
 
@@ -888,7 +888,7 @@ h3 {
     cursor: default;
 }
 
-.f-title-bg:hover {
+.f-title-main-con:hover .f-title-bg{
     animation: title 2s ease-in-out;
 }
 
