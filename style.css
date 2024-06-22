@@ -6,7 +6,6 @@
     height: 50px;
     padding-top: 10px;
     padding-bottom: 20px;
-    width: 1519px;
 }
 
 .first ul {
@@ -243,7 +242,6 @@ p {
 
 .marq1 {
     background: #141353;
-    width: 1519px;
     color: white;
     position: relative;
     padding: 14px 0px;
@@ -257,7 +255,6 @@ p {
     position: relative;
     display: flex;
     height: 600px;
-    width: 1519px;
     background: #F3F4F6;
 }
 
@@ -412,7 +409,6 @@ h3 {
 
 
 .clg-info {
-    width: 1519px;
     background-image: url('images/clg-info.jpg');
     background-size: cover;
 }
@@ -499,7 +495,6 @@ h3 {
 
 .announce-news {
     display: flex;
-    width: 1519px;
     background-image: url('images/announce-news-update.jpg');
     background-size: cover;
 }
@@ -706,7 +701,6 @@ h3 {
 }
 
 .Our-Distinctiveness {
-    width: 1519px;
     height: 500px;
     background: #22225E;
     display: flex;
